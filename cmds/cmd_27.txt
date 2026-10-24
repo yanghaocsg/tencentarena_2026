@@ -1,0 +1,1 @@
+base64 -d /tmp/wf.b64 > workflow/train_workflow.py

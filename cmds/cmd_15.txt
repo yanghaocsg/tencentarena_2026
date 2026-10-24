@@ -1,0 +1,1 @@
+base64 -d /tmp/al.b64 > algorithm/algorithm.py

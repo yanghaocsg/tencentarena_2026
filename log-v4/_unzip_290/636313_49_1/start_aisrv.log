@@ -1,0 +1,53 @@
+[32m[INFO] [2026-10-10 07:17:15][0m 检测到 1 个地图代码: 1
+[32m[INFO] [2026-10-10 07:17:15][0m 调用函数: start_mmpve_aisrv
+[32m[INFO] [2026-10-10 07:17:15][0m skip backup conf/kaiwudrl (not exist)
+[32m[INFO] [2026-10-10 07:17:15][0m backup kaiwudrl/conf/kaiwudrl success
+[32m[INFO] [2026-10-10 07:17:15][0m use agent_diy success
+[32m[INFO] [2026-10-10 07:17:15][0m use agent_ppo success
+[32m[INFO] [2026-10-10 07:17:15][0m use conf success
+[32m[INFO] [2026-10-10 07:17:15][0m /workspace/code/.vscode not exist, skip and remove /data/projects/gorge_chase/.vscode
+[32m[INFO] [2026-10-10 07:17:15][0m use ckpt success
+cp: cannot stat '/workspace/code/kaiwu.json': 没有那个文件或目录
+[32m[INFO] [2026-10-10 07:17:15][0m use /workspace/code/kaiwu.json success
+[32m[INFO] [2026-10-10 07:17:15][0m skip restore conf/kaiwudrl (backup not exist)
+[32m[INFO] [2026-10-10 07:17:15][0m restore kaiwudrl/conf/kaiwudrl success
+[32m[INFO] [2026-10-10 07:17:15][0m will init kaiwudrl config
+[32m[INFO] [2026-10-10 07:17:15][0m will merge config /root/tools/eval/configure_app.toml to /root/tools/conf/project_default.toml
+[32m[INFO] [2026-10-10 07:17:15][0m check passed: project_code='gorge_chase', algorithm='ppo'
+[32m[INFO] [2026-10-10 07:17:15][0m fix eval workflow entries via /root/tools/change_nature_algo.py (algo=ppo)
+[32m algorithm_name is ppo [0m
+[32m change kaiwudrl/conf/kaiwudrl/configure.toml ppo success [0m
+[32m change /root/tools/conf/project_default.toml ppo success [0m
+[32m change conf/configure_app.toml ppo success [0m
+[32m change conf/app_conf_gorge_chase.toml ppo success [0m
+配置文件已合并并写回到 /data/projects/gorge_chase/tools/eval/conf/eval_env_conf.toml
+[32m[INFO] [2026-10-10 07:17:15][0m computed env_addrs=10.20.6.123:5567 (first=10.20.6.123:5567)
+[32m[INFO] [2026-10-10 07:17:15][0m 教育版简配：固定 hero_id=9010, talent_type=90101
+[32m[INFO] [2026-10-10 07:17:15][0m 配置文件不存在，跳过更新：/data/projects/kaiwu_arena/environments/gorge_chase/conf/game.yaml
+[32m[INFO] [2026-10-10 07:17:15][0m 配置文件不存在，跳过更新：/data/projects/kaiwu_arena/environments/gorge_chase/conf/game.yaml
+[32m[INFO] [2026-10-10 07:17:15][0m 检测到环境变量 KAIWU_ASSESS_MAP_CODES=1
+[32m[INFO] [2026-10-10 07:17:15][0m 解析 KAIWU_ASSESS_MAP_CODES -> [1]，准备更新 /data/projects/kaiwu_arena/environments/gorge_chase/conf/game.yaml
+[32m[INFO] [2026-10-10 07:17:15][0m 配置文件不存在，跳过更新：/data/projects/kaiwu_arena/environments/gorge_chase/conf/game.yaml
+[32m[INFO] [2026-10-10 07:17:15][0m Eval plugin 执行完成
+[32m change_tcp_parameter success [0m
+[32m machine architecture information: x86_64  [0m
+eth1: error fetching interface information: Device not found
+[32m learner produce config success [0m
+Skipping start_modelpool command
+[32m learner cluster release start success [0m
+[32m change_tcp_parameter success [0m
+eth1: error fetching interface information: Device not found
+[32m aisrv produce config success [0m
+[32m aisrv start success [0m
+已终止
+[32m[INFO] [2026-10-10 07:17:37][0m the pids of 636313_49_1 are 363
+497
+499
+512
+514
+[32m[INFO] [2026-10-10 07:17:37][0m game 1 workflow_done detected, waiting for gamecore final status
+[32m[INFO] [2026-10-10 07:17:37][0m done file is not exist in /workspace/log, 636313_49_1 is still running (elapsed=20s)
+[32m[INFO] [2026-10-10 07:17:42][0m game 1 workflow_done detected, waiting for gamecore final status
+[32m[INFO] [2026-10-10 07:17:42][0m done file is not exist in /workspace/log, 636313_49_1 is still running (elapsed=25s)
+[32m[INFO] [2026-10-10 07:17:47][0m game 1 workflow_done detected, waiting for gamecore final status
+[32m[INFO] [2026-10-10 07:17:47][0m done file is not exist in /workspace/log, 636313_49_1 is still running (elapsed=30s)

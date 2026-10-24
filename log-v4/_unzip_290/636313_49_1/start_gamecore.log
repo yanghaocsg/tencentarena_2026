@@ -1,0 +1,20 @@
+[32m[INFO] [2026-10-10 07:17:15][0m 检测到 1 个地图代码: 1
+[32m[INFO] [2026-10-10 07:17:15][0m 调用函数: start_mmpve_gamecore
+[32m[INFO] [2026-10-10 07:17:15][0m set eval_map_id to 1 in /data/projects/kaiwu_arena/environments/gorge_chase/conf/game.yaml
+---succeed to update configure_system.toml---
+---succeed to change the ports of kaiwu_env---
+[32m[INFO] [2026-10-10 07:17:15][0m 教育版简配：固定 hero_id=9010, talent_type=90101
+[32m[INFO] [2026-10-10 07:17:15][0m ✓ 已更新 hero_id 为 9010
+[32m[INFO] [2026-10-10 07:17:15][0m ✓ 已更新 talent_type 为 90101
+[32m[INFO] [2026-10-10 07:17:15][0m 检测到环境变量 KAIWU_ASSESS_MAP_CODES=1
+[32m[INFO] [2026-10-10 07:17:15][0m 解析 KAIWU_ASSESS_MAP_CODES -> [1]，准备更新 /data/projects/kaiwu_arena/environments/gorge_chase/conf/game.yaml
+[32m[INFO] [2026-10-10 07:17:15][0m ✓ 已更新 available_maps 为 [1]
+[32m[INFO] [2026-10-10 07:17:15][0m Eval plugin 执行完成
+Activating gorge_chase/lib/activate_env_lib.sh
+[Activate] Registered script directory: /data/projects/kaiwu_arena/gorge_chase/lib
+[32m[INFO] [2026-10-10 07:17:30][0m the pids of 636313_49_1 are 363
+497
+[32m[INFO] [2026-10-10 07:17:50][0m gamecore: checking result and aisrv status (elapsed=20s)
+[32m[INFO] [2026-10-10 07:17:50][0m gamecore: get donefile: /data/projects/kaiwu_arena/log/636313_49_1/game_data/636313_49_1.done
+[32m[INFO] [2026-10-10 07:17:50][0m gamecore: get result: /data/projects/kaiwu_arena/log/636313_49_1/game_data/636313_49_1.json
+[32m[INFO] [2026-10-10 07:17:50][0m gamecore: start copying files to /workspace/battle

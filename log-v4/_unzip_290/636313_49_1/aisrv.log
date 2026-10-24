@@ -1,0 +1,55 @@
+2026-10-10 07:17:21.384 | INFO | PID:462 | process_health_monitor.register_alert_callback:319 - aisrv ai_server ProcessHealthMonitor registered alert callback for types: ALL
+2026-10-10 07:17:21.449 | INFO | PID:462 | process_health_monitor.register_process:192 - aisrv ai_server ProcessHealthMonitor registered process: learner_proxy_train_one_0(pid=514, type=learner_proxy)
+2026-10-10 07:17:21.449 | INFO | PID:462 | aisrv_server_standard.start_aisrv_handler:512 - aisrv ai_server get kaiwu_env address is ['10.20.6.123:5567']
+2026-10-10 07:17:21.451 | INFO | PID:512 | model_file_sync.before_run:230 - aisrv model_file_sync, use modelpool, use_which_deep_learning_framework is pytorch
+2026-10-10 07:17:21.452 | INFO | PID:512 | model_file_sync.before_run:236 - model_file_sync process pid is 512
+2026-10-10 07:17:21.452 | INFO | PID:512 | model_file_sync.make_model_dirs:166 - model_file_sync mkdir /data/ckpt/gorge_chase_ppo/plugins success
+2026-10-10 07:17:21.452 | INFO | PID:512 | model_file_sync.make_model_dirs:183 - model_file_sync mkdir /data/ckpt/gorge_chase_ppo/models /data/ckpt/gorge_chase_ppo/models_new/ /data/ckpt/gorge_chase_ppo/plugins success
+2026-10-10 07:17:21.452 | INFO | PID:512 | model_file_sync.make_model_dirs:192 - model_file_sync mkdir /data/ckpt/gorge_chase_ppo/convert_models_aisrv success
+2026-10-10 07:17:21.454 | INFO | PID:462 | aisrv_server_standard.start_aisrv_handler:525 - aisrv ai_server AiSrvHandle with address: 10.20.6.123:5567 start
+2026-10-10 07:17:21.454 | INFO | PID:462 | process_health_monitor.register_process:192 - aisrv ai_server ProcessHealthMonitor registered process: workflow_0(pid=516, type=workflow)
+2026-10-10 07:17:21.455 | INFO | PID:462 | aisrv_server_standard.before_run:659 - aisrv ai_server is start success at 0.0.0.0:8000, pid is 462, run_mode is eval, self_play is False
+2026-10-10 07:17:21.516 | INFO | PID:516 | kaiwu_rl_helper_standard.__init__:164 - aisrv kaiwu_rl_helper start at pid 516, ppid is 139953217754944, thread id is -1
+2026-10-10 07:17:21.516 | INFO | PID:516 | kaiwu_rl_helper_standard.__init__:164 - aisrv kaiwu_rl_helper start at pid 516, ppid is 139953217754944, thread id is -1
+2026-10-10 07:17:21.517 | INFO | PID:516 | aisrv_handle_standard.before_run:207 - aisrv ai_server_handle use kaiwu_rl_helper: <KaiWuRLStandardHelper(kaiwu_rl_helper_0, initial daemon)>
+2026-10-10 07:17:21.517 | INFO | PID:516 | aisrv_handle_standard.before_run:207 - aisrv ai_server_handle use kaiwu_rl_helper: <KaiWuRLStandardHelper(kaiwu_rl_helper_0, initial daemon)>
+2026-10-10 07:17:21.517 | INFO | PID:516 | aisrv_handle_standard.before_run:210 - aisrv ai_server_handle established connect to 10.20.6.123:5567, slot id is 0, min_slot_id is 0
+2026-10-10 07:17:21.517 | INFO | PID:516 | aisrv_handle_standard.before_run:210 - aisrv ai_server_handle established connect to 10.20.6.123:5567, slot id is 0, min_slot_id is 0
+2026-10-10 07:17:21.518 | INFO | PID:516 | aisrv_handle_standard.before_run:219 - aisrv ai_server_handle current_actor_addrs is [], current_learner_addrs is ['127.0.0.1:9999']
+2026-10-10 07:17:21.518 | INFO | PID:516 | aisrv_handle_standard.before_run:219 - aisrv ai_server_handle current_actor_addrs is [], current_learner_addrs is ['127.0.0.1:9999']
+2026-10-10 07:17:21.518 | INFO | PID:516 | aisrv_handle_standard.before_run:242 - aisrv ai_server_handle start success at pid 516
+2026-10-10 07:17:21.518 | INFO | PID:516 | aisrv_handle_standard.before_run:242 - aisrv ai_server_handle start success at pid 516
+2026-10-10 07:17:21.523 | INFO | PID:516 | process_health_monitor.register_thread:259 - aisrv ai_server ProcessHealthMonitor registered thread: kaiwu_rl_helper_0(tid=139952352270016, type=kaiwu_rl_helper)
+2026-10-10 07:17:21.523 | INFO | PID:516 | process_health_monitor.register_thread:259 - aisrv ai_server ProcessHealthMonitor registered thread: kaiwu_rl_helper_0(tid=139952352270016, type=kaiwu_rl_helper)
+2026-10-10 07:17:21.528 | INFO | PID:516 | kaiwu_env_proxy.init:66 - aisrv kaiwu_env_proxy use shared_memory, DuplexPosixChannel aisrv <--> env, start at out:aisrv_10.20.6.123_5567, in:10.20.6.123_5567_aisrv success
+2026-10-10 07:17:21.528 | INFO | PID:516 | kaiwu_env_proxy.init:66 - aisrv kaiwu_env_proxy use shared_memory, DuplexPosixChannel aisrv <--> env, start at out:aisrv_10.20.6.123_5567, in:10.20.6.123_5567_aisrv success
+2026-10-10 07:17:21.963 | INFO | PID:516 | agent_wrapper_common.create_standard_agent_wrapper:116 - aisrv policy_name train_one, algo ppo, agent_wrapper is StandardModelWrapperPytorch
+2026-10-10 07:17:21.963 | INFO | PID:516 | agent_wrapper_common.create_standard_agent_wrapper:116 - aisrv policy_name train_one, algo ppo, agent_wrapper is StandardModelWrapperPytorch
+2026-10-10 07:17:21.964 | INFO | PID:516 | kaiwu_rl_helper_standard.start_agent:1215 - aisrv kaiwu_rl_helper start agent 0 with train_one
+2026-10-10 07:17:21.964 | INFO | PID:516 | kaiwu_rl_helper_standard.start_agent:1215 - aisrv kaiwu_rl_helper start agent 0 with train_one
+2026-10-10 07:17:22.023 | INFO | PID:516 | agent.load_model:176 - aisrv load model /data/projects/gorge_chase/ckpt/model.ckpt-56714.pkl successfully
+2026-10-10 07:17:22.023 | INFO | PID:516 | agent.load_model:176 - aisrv load model /data/projects/gorge_chase/ckpt/model.ckpt-56714.pkl successfully
+2026-10-10 07:17:22.023 | INFO | PID:516 | kaiwu_rl_helper_standard.load_model_in_eval_or_exam_mode:1120 - aisrv kaiwu_rl_helper load_model success, path is /data/projects/gorge_chase/ckpt, id is 56714
+2026-10-10 07:17:22.023 | INFO | PID:516 | kaiwu_rl_helper_standard.load_model_in_eval_or_exam_mode:1120 - aisrv kaiwu_rl_helper load_model success, path is /data/projects/gorge_chase/ckpt, id is 56714
+2026-10-10 07:17:22.026 | INFO | PID:516 | eval_workflow.workflow:51 - aisrv .......... Evaluation Start ..........
+2026-10-10 07:17:22.026 | INFO | PID:516 | eval_workflow.workflow:51 - aisrv .......... Evaluation Start ..........
+2026-10-10 07:17:22.049922: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-10 07:17:22.051759: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2026-10-10 07:17:22.127498: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2026-10-10 07:17:22.127925: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-10-10 07:17:22.227 | INFO | PID:516 | eval_workflow.run_episodes:110 - aisrv agent reset
+2026-10-10 07:17:22.227 | INFO | PID:516 | eval_workflow.run_episodes:110 - aisrv agent reset
+2026-10-10 07:17:26.241427: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-10-10 07:17:29.117 | INFO | PID:514 | reverb_util.__init__:52 - aisrv learner_proxy reverb client Client, server_address=127.0.0.1:9999 127.0.0.1:9999 connect to reverb server
+2026-10-10 07:17:29.117 | INFO | PID:514 | learner_proxy.before_run:434 - learner_proxy reverb server is 127.0.0.1:9999, table_names is ['reverb_replay_buffer_table_0']
+2026-10-10 07:17:29.118 | INFO | PID:514 | learner_proxy.before_run:490 - learner_proxy zmq client connect at 127.0.0.1:9997 with client_id 65056725
+2026-10-10 07:17:29.118 | INFO | PID:514 | learner_proxy.before_run:505 - learner_proxy policy_name: train_one, start success at pid 514
+2026-10-10 07:17:30.265 | INFO | PID:516 | eval_workflow.run_episodes:156 - aisrv env.step return done, terminated: True, truncated: False, so break
+2026-10-10 07:17:30.265 | INFO | PID:516 | eval_workflow.run_episodes:156 - aisrv env.step return done, terminated: True, truncated: False, so break
+2026-10-10 07:17:30.265 | INFO | PID:516 | eval_workflow.workflow:64 - aisrv .......... Evaluation End ..........
+2026-10-10 07:17:30.265 | INFO | PID:516 | eval_workflow.workflow:64 - aisrv .......... Evaluation End ..........
+2026-10-10 07:17:30.266 | INFO | PID:516 | eval_workflow.workflow:69 - aisrv eval workflow finished, terminating aisrv main process
+2026-10-10 07:17:30.266 | INFO | PID:516 | eval_workflow.workflow:69 - aisrv eval workflow finished, terminating aisrv main process
+2026-10-10 07:17:30.266 | INFO | PID:516 | eval_workflow.workflow:73 - aisrv sent SIGTERM to parent process 462
+2026-10-10 07:17:30.266 | INFO | PID:516 | eval_workflow.workflow:73 - aisrv sent SIGTERM to parent process 462

@@ -1,0 +1,1 @@
+base64 -d /tmp/cf.b64 > conf/conf.py

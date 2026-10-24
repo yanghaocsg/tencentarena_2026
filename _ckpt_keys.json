@@ -1,0 +1,370 @@
+{
+ "treasure_mlp.fc_layers.treasure_mlp_fc1.weight": [
+  64,
+  6
+ ],
+ "treasure_mlp.fc_layers.treasure_mlp_fc1.bias": [
+  64
+ ],
+ "treasure_mlp.fc_layers.treasure_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "treasure_mlp.fc_layers.treasure_mlp_fc2.bias": [
+  64
+ ],
+ "buff_mlp.fc_layers.buff_mlp_fc1.weight": [
+  64,
+  8
+ ],
+ "buff_mlp.fc_layers.buff_mlp_fc1.bias": [
+  64
+ ],
+ "buff_mlp.fc_layers.buff_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "buff_mlp.fc_layers.buff_mlp_fc2.bias": [
+  64
+ ],
+ "monster_mlp.fc_layers.monster_mlp_fc1.weight": [
+  64,
+  10
+ ],
+ "monster_mlp.fc_layers.monster_mlp_fc1.bias": [
+  64
+ ],
+ "monster_mlp.fc_layers.monster_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "monster_mlp.fc_layers.monster_mlp_fc2.bias": [
+  64
+ ],
+ "progress_mlp.fc_layers.progress_mlp_fc1.weight": [
+  64,
+  12
+ ],
+ "progress_mlp.fc_layers.progress_mlp_fc1.bias": [
+  64
+ ],
+ "progress_mlp.fc_layers.progress_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "progress_mlp.fc_layers.progress_mlp_fc2.bias": [
+  64
+ ],
+ "temporal_mlp.fc_layers.temporal_mlp_fc1.weight": [
+  64,
+  24
+ ],
+ "temporal_mlp.fc_layers.temporal_mlp_fc1.bias": [
+  64
+ ],
+ "temporal_mlp.fc_layers.temporal_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "temporal_mlp.fc_layers.temporal_mlp_fc2.bias": [
+  64
+ ],
+ "path_planning_mlp.fc_layers.path_planning_mlp_fc1.weight": [
+  64,
+  16
+ ],
+ "path_planning_mlp.fc_layers.path_planning_mlp_fc1.bias": [
+  64
+ ],
+ "path_planning_mlp.fc_layers.path_planning_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "path_planning_mlp.fc_layers.path_planning_mlp_fc2.bias": [
+  64
+ ],
+ "treasure_priority_mlp.fc_layers.treasure_priority_mlp_fc1.weight": [
+  64,
+  8
+ ],
+ "treasure_priority_mlp.fc_layers.treasure_priority_mlp_fc1.bias": [
+  64
+ ],
+ "treasure_priority_mlp.fc_layers.treasure_priority_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "treasure_priority_mlp.fc_layers.treasure_priority_mlp_fc2.bias": [
+  64
+ ],
+ "safety_heatmap_mlp.fc_layers.safety_heatmap_mlp_fc1.weight": [
+  64,
+  16
+ ],
+ "safety_heatmap_mlp.fc_layers.safety_heatmap_mlp_fc1.bias": [
+  64
+ ],
+ "safety_heatmap_mlp.fc_layers.safety_heatmap_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "safety_heatmap_mlp.fc_layers.safety_heatmap_mlp_fc2.bias": [
+  64
+ ],
+ "dist_mlp.fc_layers.dist_mlp_fc1.weight": [
+  64,
+  32
+ ],
+ "dist_mlp.fc_layers.dist_mlp_fc1.bias": [
+  64
+ ],
+ "dist_mlp.fc_layers.dist_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "dist_mlp.fc_layers.dist_mlp_fc2.bias": [
+  64
+ ],
+ "global_mlp.fc_layers.global_mlp_fc1.weight": [
+  64,
+  10
+ ],
+ "global_mlp.fc_layers.global_mlp_fc1.bias": [
+  64
+ ],
+ "global_mlp.fc_layers.global_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "global_mlp.fc_layers.global_mlp_fc2.bias": [
+  64
+ ],
+ "visited_mlp.fc_layers.visited_mlp_fc1.weight": [
+  64,
+  256
+ ],
+ "visited_mlp.fc_layers.visited_mlp_fc1.bias": [
+  64
+ ],
+ "visited_mlp.fc_layers.visited_mlp_fc2.weight": [
+  64,
+  64
+ ],
+ "visited_mlp.fc_layers.visited_mlp_fc2.bias": [
+  64
+ ],
+ "query_layer.weight": [
+  64,
+  384
+ ],
+ "query_layer.bias": [
+  64
+ ],
+ "key_layer.weight": [
+  64,
+  64
+ ],
+ "key_layer.bias": [
+  64
+ ],
+ "value_layer.weight": [
+  64,
+  64
+ ],
+ "value_layer.bias": [
+  64
+ ],
+ "attention.in_proj_weight": [
+  192,
+  64
+ ],
+ "attention.in_proj_bias": [
+  192
+ ],
+ "attention.out_proj.weight": [
+  64,
+  64
+ ],
+ "attention.out_proj.bias": [
+  64
+ ],
+ "main_mlp_net.fc_layers.main_mlp_net_fc1.weight": [
+  512,
+  576
+ ],
+ "main_mlp_net.fc_layers.main_mlp_net_fc1.bias": [
+  512
+ ],
+ "main_mlp_net.fc_layers.main_mlp_net_fc2.weight": [
+  256,
+  512
+ ],
+ "main_mlp_net.fc_layers.main_mlp_net_fc2.bias": [
+  256
+ ],
+ "label_mlp.fc_layers.label_mlp_fc1.weight": [
+  64,
+  256
+ ],
+ "label_mlp.fc_layers.label_mlp_fc1.bias": [
+  64
+ ],
+ "label_mlp.fc_layers.label_mlp_fc2.weight": [
+  16,
+  64
+ ],
+ "label_mlp.fc_layers.label_mlp_fc2.bias": [
+  16
+ ],
+ "critic_net.backbone.0.weight": [
+  512,
+  576
+ ],
+ "critic_net.backbone.0.bias": [
+  512
+ ],
+ "critic_net.backbone.2.weight": [
+  512
+ ],
+ "critic_net.backbone.2.bias": [
+  512
+ ],
+ "critic_net.backbone.3.weight": [
+  256,
+  512
+ ],
+ "critic_net.backbone.3.bias": [
+  256
+ ],
+ "critic_net.backbone.5.weight": [
+  256
+ ],
+ "critic_net.backbone.5.bias": [
+  256
+ ],
+ "critic_net.backbone.6.weight": [
+  128,
+  256
+ ],
+ "critic_net.backbone.6.bias": [
+  128
+ ],
+ "critic_net.backbone.8.weight": [
+  128
+ ],
+ "critic_net.backbone.8.bias": [
+  128
+ ],
+ "critic_net.value_head.0.weight": [
+  64,
+  128
+ ],
+ "critic_net.value_head.0.bias": [
+  64
+ ],
+ "critic_net.value_head.2.weight": [
+  3,
+  64
+ ],
+ "critic_net.value_head.2.bias": [
+  3
+ ],
+ "auxiliary_heads.monster_pred_head.0.weight": [
+  128,
+  256
+ ],
+ "auxiliary_heads.monster_pred_head.0.bias": [
+  128
+ ],
+ "auxiliary_heads.monster_pred_head.2.weight": [
+  64,
+  128
+ ],
+ "auxiliary_heads.monster_pred_head.2.bias": [
+  64
+ ],
+ "auxiliary_heads.monster_pred_head.4.weight": [
+  8,
+  64
+ ],
+ "auxiliary_heads.monster_pred_head.4.bias": [
+  8
+ ],
+ "auxiliary_heads.safety_pred_head.0.weight": [
+  64,
+  256
+ ],
+ "auxiliary_heads.safety_pred_head.0.bias": [
+  64
+ ],
+ "auxiliary_heads.safety_pred_head.2.weight": [
+  32,
+  64
+ ],
+ "auxiliary_heads.safety_pred_head.2.bias": [
+  32
+ ],
+ "auxiliary_heads.safety_pred_head.4.weight": [
+  4,
+  32
+ ],
+ "auxiliary_heads.safety_pred_head.4.bias": [
+  4
+ ],
+ "auxiliary_heads.action_hint_head.0.weight": [
+  64,
+  256
+ ],
+ "auxiliary_heads.action_hint_head.0.bias": [
+  64
+ ],
+ "auxiliary_heads.action_hint_head.2.weight": [
+  8,
+  64
+ ],
+ "auxiliary_heads.action_hint_head.2.bias": [
+  8
+ ],
+ "rnd_net.target_net.0.weight": [
+  256,
+  480
+ ],
+ "rnd_net.target_net.0.bias": [
+  256
+ ],
+ "rnd_net.target_net.2.weight": [
+  256,
+  256
+ ],
+ "rnd_net.target_net.2.bias": [
+  256
+ ],
+ "rnd_net.target_net.4.weight": [
+  256,
+  256
+ ],
+ "rnd_net.target_net.4.bias": [
+  256
+ ],
+ "rnd_net.predict_net.0.weight": [
+  256,
+  480
+ ],
+ "rnd_net.predict_net.0.bias": [
+  256
+ ],
+ "rnd_net.predict_net.2.weight": [
+  256,
+  256
+ ],
+ "rnd_net.predict_net.2.bias": [
+  256
+ ],
+ "rnd_net.predict_net.4.weight": [
+  256,
+  256
+ ],
+ "rnd_net.predict_net.4.bias": [
+  256
+ ]
+}

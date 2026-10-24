@@ -1,0 +1,22 @@
+﻿step25 act0 hero[89, 72] mon[[np.int32(81), np.int32(80)]] buff[32, 87] rem0 resp0 pickups0 nm11.3
+step50 act4 hero[93, 65] mon[[np.int32(100), np.int32(70)]] buff[32, 87] rem0 resp0 pickups0 nm8.6
+step75 act4 hero[68, 61] mon[[np.int32(75), np.int32(61)]] buff[32, 87] rem0 resp0 pickups0 nm7.0
+step100 act3 hero[43, 83] mon[[np.int32(50), np.int32(78)]] buff[32, 87] rem0 resp0 pickups0 nm8.6
+step125 act3 hero[16, 105] mon[[np.int32(25), np.int32(100)]] buffNone rem35 resp185 pickups1 nm10.3
+step150 act0 hero[48, 87] mon[[np.int32(29), np.int32(105)]] buffNone rem10 resp160 pickups1 nm26.2
+step175 act0 hero[83, 87] mon[[np.int32(54), np.int32(116)]] buffNone rem0 resp135 pickups1 nm41.0
+step200 act0 hero[98, 92] mon[[np.int32(79), np.int32(111)]] buffNone rem0 resp110 pickups1 nm26.9
+step225 act6 hero[99, 80] mon[[np.int32(104), np.int32(88)]] buffNone rem0 resp85 pickups1 nm9.4
+step250 act0 hero[101, 87] mon[[np.int32(94), np.int32(89)]] buffNone rem0 resp60 pickups1 nm7.3
+step275 act2 hero[89, 84] mon[[np.int32(93), np.int32(79)]] buffNone rem0 resp35 pickups1 nm6.4
+step300 act5 hero[98, 79] mon[[np.int32(105), np.int32(86)], [np.int32(97), np.int32(68)]] buffNone rem0 resp10 pickups1 nm9.9
+step325 act6 hero[101, 86] mon[[np.int32(95), np.int32(90)], [np.int32(98), np.int32(90)]] buff[32, 87] rem0 resp0 pickups1 nm5.0
+step350 act0 hero[95, 86] mon[[np.int32(91), np.int32(86)], [np.int32(91), np.int32(86)]] buff[32, 87] rem0 resp0 pickups1 nm4.0
+step375 act1 hero[91, 86] mon[[np.int32(88), np.int32(82)], [np.int32(88), np.int32(82)]] buff[32, 87] rem0 resp0 pickups1 nm5.0
+step400 act2 hero[90, 82] mon[[np.int32(92), np.int32(79)], [np.int32(92), np.int32(79)]] buff[32, 87] rem0 resp0 pickups1 nm3.6
+step425 act4 hero[92, 79] mon[[np.int32(96), np.int32(79)], [np.int32(96), np.int32(79)]] buff[32, 87] rem0 resp0 pickups1 nm4.0
+step450 act4 hero[96, 79] mon[[np.int32(100), np.int32(81)], [np.int32(100), np.int32(81)]] buff[32, 87] rem0 resp0 pickups1 nm4.5
+step475 act6 hero[99, 81] mon[[np.int32(100), np.int32(85)], [np.int32(100), np.int32(85)]] buff[32, 87] rem0 resp0 pickups1 nm4.1
+step500 act6 hero[99, 85] mon[[np.int32(97), np.int32(88)], [np.int32(97), np.int32(88)]] buff[32, 87] rem0 resp0 pickups1 nm3.6
+step509 act3 hero[92, 79] mon[[np.int32(93), np.int32(79)], [np.int32(93), np.int32(79)]] buff[32, 87] rem0 resp0 pickups1 nm1.0
+RESULT FAIL pickups 1
